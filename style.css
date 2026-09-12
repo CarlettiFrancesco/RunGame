@@ -1,0 +1,12 @@
+#giallo::marker{
+    color:rgb(255, 215, 0);
+}
+#rosso::marker{
+    color:rgb(255, 0, 0);
+}
+#verde::marker{
+    color:rgb(0, 255, 0);
+}
+#blu::marker{
+    color:rgb(0, 0, 255);
+}

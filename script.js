@@ -19,7 +19,7 @@ let colors = [
 ];
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(500, 500, document.getElementById("canvas"));
   frameRate(3);
 
   for (let i = 0; i < numCaterpillars; i++) {
@@ -28,7 +28,7 @@ function setup() {
 
   startButton = createButton("START");
   startButton.center();
-  startButton.position(200, 600);
+  startButton.position(200, 610);
   
   startButton.mousePressed(startRace);
 }
